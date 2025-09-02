@@ -8,6 +8,7 @@ public class Product {
     public Double price;
 
     public Product() {
+
     }
 
     public Product(String name, double price) {

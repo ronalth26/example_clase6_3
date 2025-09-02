@@ -33,8 +33,9 @@ public class Seller {
         }
     }
 
-    public void showInfo3() {
+    public String showInfo3() {
         System.out.println("Seller prueba ");
+        return "hola mundo";
     }
 
     // Getters y Setters

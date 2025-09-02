@@ -18,7 +18,8 @@ public class DemoAppv1Application implements CommandLineRunner {
 
 
 	@Override
-	public void run(String... args) {
+	public void run(String... args) throws  Exception {
 		seller.showInfo3();
 	}
+
 }
