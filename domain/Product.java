@@ -7,13 +7,12 @@ public class Product {
     public String name;
     public Double price;
 
-    public Product() {
-
-    }
-
-    public Product(String name, double price) {
+    public Product(String name, Double price) {
         this.name = name;
         this.price = price;
+    }
+
+    public Product() {
     }
 
     public String getName() {

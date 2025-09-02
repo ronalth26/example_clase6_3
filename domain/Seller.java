@@ -24,6 +24,10 @@ public class Seller {
     public Seller() {
     }
 
+    public Seller(Product product) {
+        this.product = product;
+    }
+
     public void showInfo() {
         System.out.println("Seller: " + this.name + " | Store: " + this.store);
         if (this.product != null) {
@@ -34,8 +38,15 @@ public class Seller {
     }
 
     public String showInfo3() {
-        System.out.println("Seller prueba ");
-        return "hola mundo";
+        return "Seller: " + name + ", Store: " + store;
+    }
+
+    public void showSellerInfo() {
+        System.out.println("Seller: " + name + ", Store: " + store);
+        System.out.println("Product: " + product.getName() + ", Price: $" + product.getPrice());
+    }
+    public void showSellerInfo2() {
+        System.out.println("Seller: " + name + ", Store: " + store);
     }
 
     // Getters y Setters
